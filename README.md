@@ -1,28 +1,32 @@
-# _Titanic_EDA
+# CodeAlpha_Titanic_Visualization
 
-## Data Analytics Internship - Task 2: Exploratory Data Analysis
+## Data Analytics Internship - Task 3: Data Visualization
 
 ### Overview
-Exploratory Data Analysis (EDA) on the Titanic dataset to identify key factors affecting passenger survival.
+Visual analysis of the Titanic dataset, transforming EDA findings into charts that reveal survival patterns.
 
 ### Tools Used
 - Python
-- Pandas
-- Seaborn (dataset source)
+- Matplotlib
+- Seaborn
 
-### Steps Performed
-1. Data loading and inspection (shape, types, missing values)
-2. Data cleaning (handled missing age, dropped deck column, dropped rows with missing embarkation data)
-3. Answered 5 analytical questions using groupby statistics
+### Charts Included
+1. Overall survival rate (pie chart)
+2. Survival rate by gender (bar chart)
+3. Survival rate by passenger class (bar chart)
+4. Survival rate by age group (bar chart)
+5. Survival rate by family size (bar chart)
+6. Survival rate by class and gender (heatmap)
 
-### Key Findings
+### Key Insights
 - Overall survival rate: 38.4%
 - Female survival rate (74.0%) was nearly 4x that of males (18.9%)
 - 1st class passengers (62.6%) survived at more than double the rate of 3rd class (24.2%)
 - Children (0-12) had the highest survival rate (58.0%); seniors (60+) had the lowest (19.0%)
-- Passengers with family size 2-4 had the best odds (55-72%); solo travelers and large families fared worse
+- The class x gender heatmap shows 1st class females had the highest survival rate, while 3rd class males had the lowest
 
 ### Files
-- `Titanic_EDA.ipynb` - full analysis notebook
+- `Titanic_Visualization.ipynb` - full visualization notebook
 
-
+### Internship
+Part of the CodeAlpha Data Analytics Internship program.
