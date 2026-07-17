@@ -1,4 +1,4 @@
-# CodeAlpha_Titanic_EDA
+# _Titanic_EDA
 
 ## Data Analytics Internship - Task 2: Exploratory Data Analysis
 
@@ -25,5 +25,4 @@ Exploratory Data Analysis (EDA) on the Titanic dataset to identify key factors a
 ### Files
 - `Titanic_EDA.ipynb` - full analysis notebook
 
-### Internship
-Part of the CodeAlpha Data Analytics Internship program.
+
